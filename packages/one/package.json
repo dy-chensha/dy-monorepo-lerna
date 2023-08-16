@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/dy-chensha/dy-monorepo-lerna/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
   }
 }
