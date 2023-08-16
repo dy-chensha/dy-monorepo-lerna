@@ -1,0 +1,29 @@
+{
+  "name": "one",
+  "version": "0.0.0",
+  "description": "测试第一个包",
+  "author": "dy-chensha <1587970314@qq.com>",
+  "homepage": "https://github.com/dy-chensha/dy-monorepo-lerna#readme",
+  "license": "ISC",
+  "main": "lib/one.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy-chensha/dy-monorepo-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/one.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dy-chensha/dy-monorepo-lerna/issues"
+  }
+}
